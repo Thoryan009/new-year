@@ -2,13 +2,48 @@
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  .merriweather-black {
+}
+
+.merriweather-black {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: normal;
-  }
-p{
-    font-family: inter;
-}  
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.new-year {
+    background-image: url('./resources/Banner\ Image.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 177px 344px;
+    text-align: center;
+
+}
+
+.dark-shade {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5));
+    background-size: cover;
+    /* padding: 177px 344px; */
+    /* width: 344px;
+    height: 177px; */
+}
+
+.banner-greeting {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
