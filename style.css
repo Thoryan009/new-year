@@ -15,6 +15,9 @@
     margin: 0 auto;
 }
 
+
+
+/* banner part */
 .new-year {
     background-image: url('./resources/Banner\ Image.png');
     background-position: center;
@@ -27,7 +30,7 @@
 
 .dark-shade {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5));
+            rgba(0, 0, 0, 0.5));
     background-size: cover;
     /* padding: 177px 344px; */
     /* width: 344px;
@@ -46,4 +49,71 @@
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
+}
+
+/* all category section */
+.all-category {
+    margin: 120px;
+    text-align: center;
+}
+
+.category-title {
+    color: red;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 51px;
+}
+
+.category-description {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.category-description2 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 46px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+/* midnight party section */
+.midnight-party {
+    background-image: url('./resources/Vectorrr.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 126px;
+}
+
+.party-title {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.section-description {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
 }
