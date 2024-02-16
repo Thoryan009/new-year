@@ -178,3 +178,36 @@
     position: relative;
     left: -100px;
 }
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    padding: 100px 0;
+    margin-top: 120px;
+}
+.footer-content{
+    display: flex;
+    gap: 800px;
+    margin-bottom: 30px;
+}
+.phone{
+    /* display: flex; */
+    gap: 10px;
+    
+}
+.website{
+    /* display: flex; */
+    gap: 20px;
+    
+}
+.icons{
+    
+    text-align: center;
+    margin: 50px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
