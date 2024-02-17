@@ -23,8 +23,8 @@
     background-position: center;
     background-size: cover;
     border-radius: 10px;
-    padding: 177px 344px;
     text-align: center;
+  
 
 }
 
@@ -32,9 +32,8 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5));
     background-size: cover;
-    /* padding: 177px 344px; */
-    /* width: 344px;
-    height: 177px; */
+    padding: 177px ;
+   
 }
 
 .banner-greeting {
@@ -117,11 +116,15 @@
     font-weight: 400;
 }
 
-.button {
-    color: rgb(255, 255, 255);
+button {
+    color: rgb(223, 217, 217);
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
+    padding: 5px 10px ;
+    border-radius: 10px;
+    border: none;
+    background-color: blueviolet;
 }
 
 /* best  offer section */
